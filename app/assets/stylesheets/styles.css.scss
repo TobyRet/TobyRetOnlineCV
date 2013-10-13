@@ -1,0 +1,73 @@
+$navbarBackground: #fff;
+$navbarBackgroundHighlight: #fff;
+$baseFontFamily: Oxygen;
+$heroUnitBackground: #fff;
+$navbarHeight: 60px;
+$navbarBrandColor: #c0392b;
+$btnPrimaryBackground: #c0392b;
+$btnPrimaryBackgroundHighlight: #c0392b;
+$navbarText: #7f8c8d;
+
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+@import 'bootstrap';
+
+body {
+	padding-top: 120px;
+}
+
+@import 'bootstrap-responsive';
+
+.navbar-inner {
+	font-family: 'Roboto';
+	@include box-shadow(none !important);
+	/*border: 0;*/
+}
+
+.footer {
+	margin-top: 60px;
+	background-color: #7f8c8d;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footertitle {
+	font-family: 'Roboto';
+	color: white;
+	text-align: center;
+}
+
+.siteinfo {
+	font-family: 'Oxygen';
+	color: white;
+	text-align: center;
+}
+
+.footerimage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-header {
+	padding-top: 60px;
+}
+
+.subheader {
+	margin-top: 60px;
+}
+
+.thumbnail h3 {
+	font-family: 'voltaire';
+	text-align: center;
+}
+
+.aboutright {
+	text-align: right;
+}
+
+.aboutpad {
+	padding-top: 22px;
+}
+
