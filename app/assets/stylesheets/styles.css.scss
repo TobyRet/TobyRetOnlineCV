@@ -17,8 +17,6 @@ body {
 	padding-top: 120px;
 }
 
-@import 'bootstrap-responsive';
-
 .navbar-inner {
 	font-family: 'Roboto';
 	@include box-shadow(none !important);
