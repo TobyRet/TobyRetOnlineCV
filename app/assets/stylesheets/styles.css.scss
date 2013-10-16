@@ -1,15 +1,17 @@
-$navbarBackground: #fff;
-$navbarBackgroundHighlight: #fff;
+$navbar-default-bg: black;
 $baseFontFamily: Oxygen;
-$heroUnitBackground: #fff;
 $navbarHeight: 60px;
-$navbarBrandColor: #c0392b;
-$btnPrimaryBackground: #c0392b;
-$btnPrimaryBackgroundHighlight: #c0392b;
-$navbarText: #7f8c8d;
+$navbarBrandColor: white;
+$navbar-default-link-color: white;
+$navbar-default-link-hover-color: blue;
+$navbar-default-link-hover-bg: white;
+$headings-font-family: 'The Girl Next Door';
+$headings-font-weight: 700;
+
 
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
-@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Radley);
+@import url(http://fonts.googleapis.com/css?family=The+Girl+Next+Door);
 
 @import 'bootstrap';
 
@@ -17,55 +19,46 @@ body {
 	padding-top: 120px;
 }
 
-.navbar-inner {
-	font-family: 'Roboto';
-	@include box-shadow(none !important);
-	/*border: 0;*/
+
+p {
+	font-family: 'Radley';
+	font-size: 1.5em;
+	color: #5C5C5C;
+}
+
+.navbar-brand {
+	font-family: 'The Girl Next Door';
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.nav li {
+	font-family: 'Radley';
+	font-size: 1.25em;
 }
 
 .footer {
-	margin-top: 60px;
-	background-color: #7f8c8d;
+	margin-top: 120px;
+	background-color: black;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 .footertitle {
-	font-family: 'Roboto';
+	font-family: 'The Girl Next Door';
 	color: white;
 	text-align: center;
 }
 
 .siteinfo {
-	font-family: 'Oxygen';
 	color: white;
-	text-align: center;
+	text-align: right;
+	margin-right: 20px;
+	font-size: .8em;
 }
 
-.footerimage {
-	display: block;
-	margin-left: auto;
+.social {
+	display: inline-block;
+	margin-left: 48%;
 	margin-right: auto;
 }
-
-.page-header {
-	padding-top: 60px;
-}
-
-.subheader {
-	margin-top: 60px;
-}
-
-.thumbnail h3 {
-	font-family: 'voltaire';
-	text-align: center;
-}
-
-.aboutright {
-	text-align: right;
-}
-
-.aboutpad {
-	padding-top: 22px;
-}
-
