@@ -1,6 +1,7 @@
 $navbar-default-bg: black;
 $navbarHeight: 60px;
 $navbarBrandColor: white;
+$navbar-height: 70px;
 $navbar-default-link-color: white;
 $navbar-default-link-hover-color: blue;
 $navbar-default-link-hover-bg: white;
@@ -16,25 +17,32 @@ $headings-font-weight: 700;
 @import 'bootstrap';
 
 body {
-	padding-top: 120px;
+	padding-top: 160px;
 }
 
 
 p {
 	font-family: 'Radley';
-	font-size: 1.5em;
+	font-size: 22px;
 	color: #5C5C5C;
 }
 
+.homeintro {
+	font-family: 'Radley';
+	font-size: 26px;
+	color: #5C5C5C;
+}
+
+
 .navbar-brand {
 	font-family: 'Oswald';
-	font-size: 1.5em;
+	font-size: 26px;
 	font-weight: bold;
 }
 
 .nav li {
 	font-family: 'Radley';
-	font-size: 1.25em;
+	font-size: 20px;
 }
 
 .footer {
@@ -69,8 +77,8 @@ p {
 }
 
 .workleft {
-	padding-top: 10px;
-	padding-bottom: 70px;
+	padding-top: 8px;
+	padding-bottom: 100px;
 }
 
 .workhead {
