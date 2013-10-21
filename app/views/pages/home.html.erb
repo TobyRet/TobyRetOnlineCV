@@ -1,13 +1,37 @@
 
-		<div class="row">
-  		<div class="col-md-3">
-				<img class="img-rounded img-responsive" src="assets/chunk.jpg" alt="Picture of Toby Retallick" height="200" width="200">
-			</div>
-			<div class="col-md-9">
-				<h1>WELCOME TO MY ONLINE CV</h1><br>
-				<p class="homeintro">"I am a brand and digital specialist with more than seven years' client-side experience. I'm passionate about online communities and creating digital environments that enable people to do good things."</p><br>
-				<p><%= link_to "Find out more...", about_path, class: "btn btn-primary btn-lg pull-right" %></p>
-			</div>
-		</div>
+<div class="row hero">
+  <div class="col-md-3">
+		<img class="img-rounded img-responsive" src="assets/chunk.jpg" alt="Picture of Toby Retallick">
+	</div>
+	<div class="col-md-9">
+		<h1>Welcome to my online cv</h1><br>
+			<p class="homeintro">"I am a brand and digital specialist with more than seven years' client-side experience. I'm passionate about online communities and creating digital environments that enable people to do good things."</p><br>
+			<p><%= link_to "Find out more...", about_path, class: "btn btn-primary btn-lg pull-right" %></p>
+	</div>
+</div>
 
-	
+<h1 class="text-center headtitle">MY BEST WORK</h1>
+<div class="row examplecta">
+  <div class="col-md-4">
+  	<div class="thumbnail">
+  		<h2 class="text-center thumbtitle">Project Management</h2>
+  		<img class="img-responsive" src="assets/community.jpg" alt="Youth Music Network">
+  		<p class="thumb">"Toby has shown great tact and diplomacy in managing the team of people tasked with delivering the project. He is a great team player and has been a pleasure to work with."<b> Andrew Jermey, Region & Nations Manager, Youth Music.</b></p>
+  	</div>
+  </div>
+  <div class="col-md-4">
+  	<div class="thumbnail">
+  		<h2 class="text-center thumbtitle">Digital Strategy</h2>
+  		<img class="img-responsive img-thumbnail" src="assets/climate.jpg" alt="Climate Strategies">
+  		<p class="thumb">"Toby conducted an excellent digital media audit for Climate Strategies, he was a very professional advisor and contributed significantly to increasing the impact of our work"<strong> Andrzej Blachowicz, Managing Director at Climate Strategies.</strong></p>
+  	</div>
+  </div>
+  <div class="col-md-4">
+  	<div class="thumbnail">
+  		<h2 class="text-center thumbtitle">Branding</h2>
+  			<img class="img-responsive" src="assets/ymwebsite.jpg" alt="Youth Music">
+  			<p class="thumb">"Love @youthmusic new circular branding - modern, focused &amp; grown up in an intelligent way. Exudes trust too." <strong>Plymouth Music Zone.</strong></p><br><br><br>
+  	</div>
+	</div>
+</div>
+<p><%= link_to "Find out more...", mywork_path, class: "btn btn-primary btn-lg pull-right" %></p>
