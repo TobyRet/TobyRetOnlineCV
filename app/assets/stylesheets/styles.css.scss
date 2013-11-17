@@ -3,15 +3,16 @@ $navbarHeight: 60px;
 $navbarBrandColor: white;
 $navbar-height: 70px;
 $navbar-default-link-color: white;
-$navbar-default-link-hover-color: blue;
+$navbar-default-link-hover-color: #3498db;
 $navbar-default-link-hover-bg: white;
+$link-color: #3498db;
 $headings-font-family: 'Oswald';
 $headings-font-weight: 700;
 
 
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
 @import url(http://fonts.googleapis.com/css?family=Radley);
-@import url(http://fonts.googleapis.com/css?family=The+Girl+Next+Door);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 
 @import 'bootstrap';
@@ -22,9 +23,13 @@ body {
 
 
 p {
-	font-family: 'Radley';
-	font-size: 22px;
+	font-family: 'Roboto';
+	font-size: 18px;
 	color: #5C5C5C;
+}
+
+.hmthumb {
+	padding: 10px 10px 0px;
 }
 
 .homeintro {
@@ -60,7 +65,6 @@ p {
 
 .siteinfo {
 	color: white;
-	text-align: right;
 	margin-right: 20px;
 	font-size: .8em;
 }
@@ -90,25 +94,29 @@ p {
 	margin-top: 50px;
 }
 
-.img-thumbnail {
-	margin-top: 15px;
-}
 
 .quote {
-	font-family: 'Oswald';
-	color: black;
+	font-family: 'Radley';
+	font-size: 24px;
+	color: #7f8c8d;
+	padding-top: 10px;
 }
 
-.hero {
-	margin-bottom: 80px;
+.casestudies {
+	margin-top: 80px;
 }
+
+.thumbnail {
+	margin-top: 20px;
+}
+
+.thumbnail:hover {
+	border: 1px solid #e74c3c;
+}
+
 
 .thumb {
 	padding: 20px 20px;
-}
-
-.thumbtitle {
-	padding-bottom: 20px;
 }
 
 .examplecta {
@@ -116,6 +124,21 @@ p {
 }
 
 .headtitle {
-	font-size: 50px;
-	margin-bottom: 30px;
+	font-size: 70px;
+}
+
+.casestudy {
+	margin-top: 90px;
+}
+
+.sectionbody {
+	margin-top: 30px;
+}
+
+.examples {
+	margin-top: 30px;
+}
+
+.sectionheader {
+	font-size: 40px;
 }
